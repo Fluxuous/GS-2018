@@ -27,7 +27,7 @@
 </head>
 <body class="sparky bootstrap home">
 
-        <div class="navbar navbar-default navbar-inverse navbar-fixed-top">
+        <div class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".header-collapse">
@@ -42,27 +42,30 @@
                     </a>
                 </div>
                 <div class="collapse navbar-collapse header-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>&ensp; Login</a></li>
-                        <a href="#" class="btn btn-danger navbar-btn navbar-right">Sign up FREE</a>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#get-started">Get Started</a></li>
+                        <li><a href="#kitchen-sink">Kitchen Sink</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://bootstrapcreative.com/resources/bootstrap-3-css-classes-index/">Bootstrap 3 Classes Cheat Sheet</a></li>
+                                <li><a href="https://bootstrapcreative.com/pattern/">Bootstrap 3 Design Pattern Library</a></li>
+                                <li><a href="https://bootstrapcreative.com/shop/bootstrap-quick-start/">Bootstrap 4 Quick Start</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                  </div>
+
+                    <iframe class="navbar-text navbar-right" src="https://ghbtns.com/github-btn.html?user=JacobLett&repo=Sparky&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                    <iframe class="navbar-text navbar-right" src="https://ghbtns.com/github-btn.html?user=JacobLett&repo=Sparky&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                </div>
             </div>
         </div>
         <div class="jumbotron text-center">
             <div class="container">
-                &nbsp;
-                &nbsp;
-                &nbsp;
-                &nbsp;
                 <h1><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Sparky <small>v3</small></h1>
                 <p>Save Time Starting a Bootstrap 3 Project</p>
                 <p>Bootstrap Sass + Grunt + <span class="glyphicon glyphicon-fire" aria-hidden="true"></span> = :)</p>
                 <p><a href="https://bootstrapcreative.com/resources/sparky-3/" class="btn btn-primary btn-large">Video Tutorial</a></p>
-                &nbsp;
-                &nbsp;
             </div>
         </div>
         <section id="get-started">

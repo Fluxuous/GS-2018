@@ -7,7 +7,7 @@
 		"uuidString": "B4CCBF0F-ED0B-4D49-ABD0-F1FE2A98BBFC"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/.gitattributes": {
 		"cB": 0,
@@ -3266,6 +3266,13 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/x_samples.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/x_samples.html",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -3847,6 +3854,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
