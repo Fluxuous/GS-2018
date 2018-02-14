@@ -2995,6 +2995,26 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/dist\/css\/add-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/dist\/css\/add-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/dist\/css\/add.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/dist\/css\/add-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/dist\/css\/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -3131,6 +3151,28 @@
 		"oAP": "\/humans.txt",
 		"oF": 0
 		},
+	"\/images\/gostudypreview.png": {
+		"ft": 32768,
+		"iS": 110420,
+		"oA": 0,
+		"oAP": "\/images\/gostudypreview.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logo.png": {
+		"ft": 32768,
+		"iS": 3022,
+		"oA": 0,
+		"oAP": "\/images\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3167,6 +3209,13 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/kit\/Footer.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kit\/Footer.html",
+		"oF": 0
 		},
 	"\/kit\/Footer.kit": {
 		"cB": 0,
@@ -3235,6 +3284,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/reg.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/reg.html",
+		"oF": 0
 		},
 	"\/robots.txt": {
 		"cB": 0,
