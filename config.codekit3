@@ -3151,14 +3151,25 @@
 		"oAP": "\/humans.txt",
 		"oF": 0
 		},
+	"\/images\/devices.png": {
+		"ft": 32768,
+		"iS": 10755,
+		"oA": 0,
+		"oAP": "\/images\/devices.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/gostudypreview.png": {
 		"ft": 32768,
 		"iS": 110420,
 		"oA": 0,
 		"oAP": "\/images\/gostudypreview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

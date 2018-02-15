@@ -1,8 +1,17 @@
-/* Extra Padding for Headers */
+/* Extra Padding for Headers and callouts */
 
 .extrapadding {
   margin-top: 65px !important;
   margin-bottom: 65px !important;
+}
+
+.extrapaddingtop {
+  margin-top: 35px !important;
+}
+
+.profilepadding {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .verticalalign {
@@ -14,6 +23,13 @@
 
 }
 
+.margincallout {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* END Extra Padding for Headers and callouts */
+
 
 /* Navigation Changes */
 
@@ -21,3 +37,58 @@
 	background-color: #EEEEEE !important;
 	border-color: #EEEEEE !important;
 }
+
+/*END Navigation Changes */
+
+/* testomonials edits */
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+/* END testomonials edits */
+
+
+/* MISC color applications */
+ .calloutbackground {
+   background-color: #062522;
+ }
+
+/* END MISC color applications*/
