@@ -3221,12 +3221,12 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/kit\/Footer.html": {
+	"\/kit\/CTA.kit": {
 		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/kit\/Footer.html",
-		"oF": 0
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/CTA.html",
+		"oF": 1
 		},
 	"\/kit\/Footer.kit": {
 		"cB": 0,
