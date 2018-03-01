@@ -3162,6 +3162,48 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/Gostudymock.jpg": {
+		"ft": 16384,
+		"iS": 205698,
+		"oA": 0,
+		"oAP": "\/images\/Gostudymock.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/Gostudymock.png": {
+		"ft": 32768,
+		"iS": 1138779,
+		"oA": 0,
+		"oAP": "\/images\/Gostudymock.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Gostudymock3.jpg": {
+		"ft": 16384,
+		"iS": 157641,
+		"oA": 0,
+		"oAP": "\/images\/Gostudymock3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/Gostudymock_BLUR.png": {
+		"ft": 32768,
+		"iS": 12288,
+		"oA": 0,
+		"oAP": "\/images\/Gostudymock_BLUR.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/gostudypreview.png": {
 		"ft": 32768,
 		"iS": 110420,
@@ -3183,6 +3225,24 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/logo_white.png": {
+		"ft": 32768,
+		"iS": 19886,
+		"oA": 0,
+		"oAP": "\/images\/logo_white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/index 2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index 2.html",
+		"oF": 0
 		},
 	"\/index.html": {
 		"cB": 0,
@@ -3241,6 +3301,13 @@
 		"oA": 1,
 		"oAP": "\/kit\/Header.html",
 		"oF": 1
+		},
+	"\/kit\/index 2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/index 2.html",
+		"oF": 2
 		},
 	"\/kit\/index.kit": {
 		"cB": 0,

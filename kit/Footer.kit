@@ -10,11 +10,11 @@
         <div class="col-md-3 col-sm-3">
           <h3>Get in touch</h3>
 					<ul class="fh5co-footer-links">
-						<p><i class="fa fa-envelope mr-3"></i>  hello@gostudy.io</p>
-            <p><i class="fa fa-phone mr-3"></i> 718.581.6521</p>
+						<p><i class="fa fa-envelope mr-3"></i>  <a href="mailto:hello@gostudy.io" style="color:#F2B828;">hello@gostudy.io</a></p>
+            <p><i class="fa fa-phone mr-3"></i> <a href="tel:718-581-6521" style="color:#F2B828;">718.581.6521</a></p>
 				 </ul>
 			 </div>
-       
+
         <div class="col-md-3 col-sm-3">
           <h3>Sitemap</h3>
           <ul class="fh5co-footer-links">
@@ -41,8 +41,8 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block text-left">&copy; 2018 | All Rights Reserved. Design by <a href="http://www.elfatranydesign.com">Elfatrany.</a></small>
-            <small class="block text-left">The CFA® and Chartered Financial Analyst® are trademarks owned by CFA Institute. CFA Institute does not endorse, promote, review, or warrant the accuracy of the products or services offered by GoStudy.</small>
+						<small class="block text-left">&copy; 2018 | All Rights Reserved. Design by <a href="http://www.elfatranydesign.com" style="color:#F2B828;">Elfatrany.</a></small>
+            <small class="block text-left">The CFA® and Chartered Financial Analyst® are trademarks owned by CFA Institute. CFA Institute does not endorse, promote, review, or warrant the accuracy of the products or services offered by GoStudy. “CFA Institute does not endorse, promote or warrant the accuracy or quality of GoStudy.  CFA® and Chartered Financial Analyst® are registered trademarks owned by CFA Institute.</small>
 					</p>
 				</div>
 			</div>
@@ -76,6 +76,17 @@ if (window.addEventListener)
 else if (window.attachEvent)
     window.attachEvent("onload", downloadJSAtOnload);
 else window.onload = downloadJSAtOnload;
+</script>
+
+<script type="text/javascript">
+$(window).scroll(function() {
+	if($(this).scrollTop() > 50)  /*height in pixels when the navbar becomes non opaque*/
+	{
+			$('.opaque-navbar').addClass('opaque');
+	} else {
+			$('.opaque-navbar').removeClass('opaque');
+	}
+});
 </script>
 </body>
 

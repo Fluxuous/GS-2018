@@ -1194,7 +1194,7 @@ h6, .h6 {
     font-size: 75%; }
 
 h1, .h1 {
-  font-size: 36px; }
+  font-size: 32px; }
 
 h2, .h2 {
   font-size: 30px; }
@@ -4289,7 +4289,7 @@ a.badge:hover, a.badge:focus {
   background-color: #eeeeee; }
   .jumbotron h1,
   .jumbotron .h1 {
-    color: inherit; }
+    color: white; }
   .jumbotron p {
     margin-bottom: 15px;
     font-size: 21px;
@@ -4313,7 +4313,7 @@ a.badge:hover, a.badge:focus {
         padding-right: 60px; }
       .jumbotron h1,
       .jumbotron .h1 {
-        font-size: 63px; } }
+        font-size: 59px; } }
 
 .thumbnail {
   display: block;

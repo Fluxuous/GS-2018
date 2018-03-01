@@ -20,7 +20,7 @@
 }
 
 .verticalalign {
-  padding: 20% 0;
+  padding: 0% 0% 20%;
 }
 
 .nopadding {
@@ -43,10 +43,52 @@
 
 /* Navigation Changes */
 
+.opaque-navbar {
+    background-color: rgba(0,0,0,0);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+    background-color: black;
+}
+
+
+@media (max-width: 992px) {
+  body {
+    background:white;
+  }
+  .opaque-navbar {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+.pull-right {
+  float: right !important;
+  background-color: black;
+  width: 35%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 1px;
+  text-align: center;
+  border-radius: 14px;
+  }
+}
+
+
 .navbar-default {
 	background-color: #EEEEEE !important;
 	border-color: #EEEEEE !important;
 }
+
 
 /*END Navigation Changes */
 
@@ -95,6 +137,18 @@
 
 /* END testomonials edits */
 
+/*Jumbotron Overrides */
+
+.jumbotron {
+	background: url("http://www.elfatranydesign.com/images/Gostudymock.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*END Jumbotron Overrides */
+
 
 /* MISC color applications */
  .calloutbackground {
@@ -102,7 +156,7 @@
  }
 
  .ctabackground {
-   background-color: #F1F1F1;
+   background-color: #062522;
  }
 
 /* END MISC color applications*/
@@ -147,6 +201,7 @@
   padding: 7em 0;
   clear: both;
   margin-top: 0 !important;
+  color: #B6B6B6;
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer {
@@ -186,7 +241,7 @@
   list-style: none;
 }
 #fh5co-footer .fh5co-footer-links li a {
-  color: #00312D;
+  color: #F2B828;
   text-decoration: none;
 }
 #fh5co-footer .fh5co-footer-links li a:hover {
