@@ -3244,13 +3244,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/index 2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index 2.html",
-		"oF": 0
-		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -3308,13 +3301,6 @@
 		"oA": 1,
 		"oAP": "\/kit\/Header.html",
 		"oF": 1
-		},
-	"\/kit\/index 2.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/index 2.html",
-		"oF": 2
 		},
 	"\/kit\/index.kit": {
 		"cB": 0,
