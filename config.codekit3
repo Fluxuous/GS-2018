@@ -3316,6 +3316,13 @@
 		"oAP": "\/kit\/Navigation.html",
 		"oF": 1
 		},
+	"\/kit\/Products.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/Products.html",
+		"oF": 2
+		},
 	"\/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -3338,6 +3345,13 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/Products.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Products.html",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -3355,13 +3369,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/reg.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/reg.html",
-		"oF": 0
 		},
 	"\/robots.txt": {
 		"cB": 0,
