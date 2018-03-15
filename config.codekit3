@@ -3162,6 +3162,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/gameplan.png": {
+		"ft": 32768,
+		"iS": 46185,
+		"oA": 0,
+		"oAP": "\/images\/gameplan.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/Gostudymock.jpg": {
 		"ft": 16384,
 		"iS": 205698,
@@ -3228,8 +3239,8 @@
 		"oA": 0,
 		"oAP": "\/images\/logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3239,9 +3250,19 @@
 		"oA": 0,
 		"oAP": "\/images\/logo_white.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Products.jpg": {
+		"ft": 16384,
+		"iS": 276886,
+		"oA": 0,
+		"oAP": "\/images\/Products.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/index.html": {

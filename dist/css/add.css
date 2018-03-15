@@ -147,6 +147,17 @@ ul.dropdown-menu {
 	background-size: cover;
 }
 
+.jumbotron2 {
+	background: url("http://www.elfatranydesign.com/images/Products.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin-bottom: 60px;
+}
+
 /*END Jumbotron Overrides */
 
 
@@ -522,11 +533,7 @@ ul.dropdown-menu {
 .price-heading{
     text-align: center;
 }
-.price-heading h1{
-	color: #666;
-	margin: 0;
-	padding: 0 0 50px 0;
-}
+
 .demo-button {
     background-color: #333333;
     color: #ffffff;
