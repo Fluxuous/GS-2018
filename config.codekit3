@@ -23,6 +23,13 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/Blog.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Blog.html",
+		"oF": 0
+		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -3151,6 +3158,16 @@
 		"oAP": "\/humans.txt",
 		"oF": 0
 		},
+	"\/images\/blog.jpg": {
+		"ft": 16384,
+		"iS": 316323,
+		"oA": 0,
+		"oAP": "\/images\/blog.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/devices.png": {
 		"ft": 32768,
 		"iS": 10755,
@@ -3257,12 +3274,12 @@
 		},
 	"\/images\/Products.jpg": {
 		"ft": 16384,
-		"iS": 276886,
+		"iS": 299551,
 		"oA": 0,
 		"oAP": "\/images\/Products.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/index.html": {
@@ -3302,6 +3319,13 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/kit\/Blog.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/Blog.html",
+		"oF": 2
+		},
 	"\/kit\/CTA.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -3336,6 +3360,13 @@
 		"oA": 1,
 		"oAP": "\/kit\/Navigation.html",
 		"oF": 1
+		},
+	"\/kit\/Postsample.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/Postsample.html",
+		"oF": 2
 		},
 	"\/kit\/Products.kit": {
 		"cB": 0,

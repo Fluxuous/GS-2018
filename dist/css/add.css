@@ -5,6 +5,11 @@
   margin-bottom: 65px !important;
 }
 
+.nopaddingmargin {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 .somepadding {
   margin-top: 25px !important;
   margin-bottom: 25px !important;
@@ -158,7 +163,129 @@ ul.dropdown-menu {
 	margin-bottom: 60px;
 }
 
+.jumbotron3 {
+	background: url("http://www.elfatranydesign.com/images/blog.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin-bottom: 60px;
+}
+
 /*END Jumbotron Overrides */
+
+/* Blog CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*=============================================*/
+    .wrap{margin-top:10%; }
+    .post{
+        display: block;
+        float: left;
+        width: 730px;
+        margin-bottom: 5%;
+        background: white;
+        box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1);
+    }
+    .post img{
+        padding: 0;
+        width: 100%;
+        height: 400px;
+    }
+    .post-wrap{
+        padding: 0px 40px 40px;
+        text-align: left
+    }
+    h2{ padding: 20px 0;}
+
+    span { color: rgb(146, 146, 146); padding-right: 12px;}
+    .post-wrap p{
+      text-align: left;
+      color: rgb(146, 146, 146);
+      padding: 5px 0;
+    }
+    .txt-strong{
+        color: #111;
+    }
+    .btn{
+        text-align: center;
+        background-color: #F1B73B;
+        color: white;
+    }
+
+    .p-icon img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 20%;
+        margin-bottom: 0;
+    }
+    .sidebar h3{
+        text-align: left;
+        padding: 20px;
+
+    }
+
+    .sidebar h2 {
+      text-align: left;
+    }
+    .menuh{
+        padding: 20px;
+    }
+    .menuh2{
+        padding: 0px;
+    }
+    .sidebar ul{
+        list-style-type: none;
+    }
+    .sidebar ul li{
+        padding: 10px 12px;
+        border-bottom: 1px solid rgb(226, 226, 226);
+        text-align: left;
+    }
+    .sidebar ul li a{
+        text-decoration: none;
+        color: #6d6d6d
+    }
+    .sidebar ul li a:hover{
+        color:#000;
+    }
+    .sidebar p{
+        padding: 0;
+        color: rgb(146, 146, 146);
+    }
+/*=============================================*/
+/* Container
+=============*/
+    .container{
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+/* Row
+=============*/
+    .row{
+        min-height: 1px;
+    }
+    .row::after{
+        clear:both;
+    }
+    .row::after, .row::before{
+        content: '';
+        display: table;
+    }
+
+
+
+
+/*END Blog CSS /
 
 
 /* MISC color applications */
