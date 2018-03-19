@@ -79,9 +79,8 @@ ul.dropdown-menu {
 .pull-right {
   float: right !important;
   background-color: black;
-  width: 35%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 50%;
+  padding-top: 4px;
   margin-right: 1px;
   text-align: center;
   border-radius: 14px;
@@ -189,23 +188,33 @@ ul.dropdown-menu {
     .post{
         display: block;
         float: left;
-        width: 730px;
         margin-bottom: 5%;
         background: white;
         box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1);
     }
+
     .post img{
         padding: 0;
         width: 100%;
-        height: 400px;
+        height: 300px;
     }
     .post-wrap{
         padding: 0px 40px 40px;
         text-align: left
     }
-    h2{ padding: 20px 0;}
 
-    span { color: rgb(146, 146, 146); padding-right: 12px;}
+    .post-wrap .btn {
+      background-color: #002723;
+    }
+
+    .post-wrap .btn:hover {
+      background-color: #000302;
+      color: white;
+    }
+
+    span { color: rgb(146, 146, 146);
+    }
+    
     .post-wrap p{
       text-align: left;
       color: rgb(146, 146, 146);
@@ -261,29 +270,6 @@ ul.dropdown-menu {
         padding: 0;
         color: rgb(146, 146, 146);
     }
-/*=============================================*/
-/* Container
-=============*/
-    .container{
-        max-width: 1140px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-/* Row
-=============*/
-    .row{
-        min-height: 1px;
-    }
-    .row::after{
-        clear:both;
-    }
-    .row::after, .row::before{
-        content: '';
-        display: table;
-    }
-
-
-
 
 /*END Blog CSS /
 

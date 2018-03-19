@@ -29,18 +29,27 @@
 </head>
 <body class="sparky bootstrap home">
 
+<style>
+.navbar-inverse {
+background-color: black !important;
+}
+
+.row {
+  margin: 0 !important;
+}
+</style>
       <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
           <div class="container">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
+              <button type="button" class="navbar-toggle text-center" data-toggle="collapse" data-target="#navMain">
                 <span class="glyphicon glyphicon-chevron-down" style="color:white;"></span>
               </button>
-              <a class="navbar-brand nopadding" href="http://www.gostudy.io/"><img src="http://www.elfatranydesign.com/images/logo_white.png" width="195"></a>
+              <a class="navbar-brand nopadding" href="index.html"><img src="http://www.elfatranydesign.com/images/logo_white.png" width="195"></a>
             </div>
             <div class="collapse navbar-collapse" id="navMain">
               <ul class="nav navbar-nav pull-right">
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Blog.html">Blog</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>&ensp; Login</a></li>
                 <a href="#" class="btn btn-danger navbar-btn navbar-right">Sign up for free!</a>
               </ul>
@@ -48,44 +57,31 @@
           </div>
         </div>
 
-        <div class="jumbotron3 text-center">
+          <div class="row extrapadding">
             <div class="container extrapadding">
-            </div>
-            <div class="container">
               <div class="col-md-12 text-center">
-                <h1 style="color:white; font-size:59px;"><strong>The Blog</strong></h1>
               </div>
             </div>
-        </div>
+          </div>
                <div class="row">
                    <div class="container">
                      <div class="col-md-9 text-center">
                        <div class="post">
                            <img src="http://www.elfatranydesign.com/images/Gostudymock3.jpg" alt="">
                            <div class="post-wrap">
-                               <a href="#"><h2><strong>Pooping is Good for You</strong></h2></a>
-
-                               <span><i class="fa fa-clock-o"></i> 03.15.2018</span>
-                               <span><i class="fa fa-clock-o"></i> By Victor Sowers</span>
-                               <span><i class="fa fa-mail-forward"></i> Share </span>
-
+                               <a href="postsample.html"><h2><strong>Pooping is Good for You</strong></h2></a>
                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit lacus, bibendum eu neque et, tempor commodo augue. Quisque porta odio congue, consectetur massa porta, pharetra tortor. Cras nec molestie arcu. Etiam quis sem nisl. Nulla ullamcorper lacus et urna aliquam volutpat. Nam tempor aliquet eros ac lacinia. Donec vulputate fermentum ex ac vestibulum. Phasellus at finibus neque, venenatis condimentum est. Morbi a dictum tortor.</p>
 
-                               <div class="btn">Read More</div>
+                               <a href="postsample.html"><div class="btn">Read More</div></a>
                            </div>
                        </div>
                         <div class="post">
                            <img src="http://www.elfatranydesign.com/images/Gostudymock3.jpg" alt="">
                            <div class="post-wrap">
-                                <a href="#"><h2><strong>Everybody Poops (I think)...</strong></h2></a>
+                                <a href="postsample.html"><h2><strong>Everybody Poops (I think)...</strong></h2></a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit lacus, bibendum eu neque et, tempor commodo augue. Quisque porta odio congue, consectetur massa porta, pharetra tortor. Cras nec molestie arcu. Etiam quis sem nisl. Nulla ullamcorper lacus et urna aliquam volutpat. Nam tempor aliquet eros ac lacinia. Donec vulputate fermentum ex ac vestibulum. Phasellus at finibus neque, venenatis condimentum est. Morbi a dictum tortor.</p>
 
-                               <span><i class="fa fa-clock-o"></i> 03.15.2018</span>
-                               <span><i class="fa fa-clock-o"></i> By Victor Sowers</span>
-                               <span><i class="fa fa-mail-forward"></i> Share </span>
-
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit lacus, bibendum eu neque et, tempor commodo augue. Quisque porta odio congue, consectetur massa porta, pharetra tortor. Cras nec molestie arcu. Etiam quis sem nisl. Nulla ullamcorper lacus et urna aliquam volutpat. Nam tempor aliquet eros ac lacinia. Donec vulputate fermentum ex ac vestibulum. Phasellus at finibus neque, venenatis condimentum est. Morbi a dictum tortor.</p>
-
-                               <div class="btn">Read More</div>
+                               <a href="postsample.html"><div class="btn">Read More</div></a>
                            </div>
                          </div>
                        </div>
@@ -107,6 +103,9 @@
                                </div>
                                <div class="menuh">
                                <h2><strong>Newsletter</strong></h2>
+                                  <img src="http://www.elfatranydesign.com/images/GSioNewsletter.jpg" style="width:100%;">
+                                  <br></br>
+
                                    <p class="text-left"> Get Gostudy Tips and tricks in your inbox!</p>
                                    <div class="verticalalign"><div><div class="form-container form_pad"><form accept-charset="UTF-8" action="/users" class="simple_form new_user" id="new_user" method="post" novalidate="novalidate"><div style="display:none"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="nUn1d6Y52bWVdf8XwhRaojm37ImQ45qPGB1by/2CVns=" type="hidden"></div><div class="form-inputs"><div class="form-group email optional user_email"><input autofocus="autofocus" class="form-control string email optional inputbdr" id="user_email" name="user[email]" placeholder="Your Email" size="50" value="" type="email"></div><div class="form-group password optional user_password"><input class="form-control password optional inputbdr" id="user_password" name="user[password]" placeholder="Your Desired Password" size="50" type="password"></div><div class="form-group select required user_curriculum_id"><select class="form-control select required inputbdr" id="user_curriculum_id" name="user[curriculum_id]"><option value="">Choose your level</option>
                                    <option value="1"> CFA level 1</option>
