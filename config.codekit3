@@ -3282,6 +3282,72 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/test1.png": {
+		"ft": 32768,
+		"iS": 278970,
+		"oA": 0,
+		"oAP": "\/images\/test1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/test2.png": {
+		"ft": 32768,
+		"iS": 336318,
+		"oA": 0,
+		"oAP": "\/images\/test2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/test3.png": {
+		"ft": 32768,
+		"iS": 334009,
+		"oA": 0,
+		"oAP": "\/images\/test3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/test4.png": {
+		"ft": 32768,
+		"iS": 300663,
+		"oA": 0,
+		"oAP": "\/images\/test4.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/test5.png": {
+		"ft": 32768,
+		"iS": 304292,
+		"oA": 0,
+		"oAP": "\/images\/test5.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/test6.png": {
+		"ft": 32768,
+		"iS": 256618,
+		"oA": 0,
+		"oAP": "\/images\/test6.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
